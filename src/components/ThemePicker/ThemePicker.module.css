@@ -1,0 +1,27 @@
+.theme-picker-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.theme-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+}
+
+.theme-picker-container.midnight .theme-icon-btn > *, 
+.theme-picker-container.sunset .theme-icon-btn > * {
+  color: white !important;
+  transition: color 1s ease-in-out;
+}

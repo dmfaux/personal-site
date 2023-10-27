@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350" height="380" viewBox="0 140 350 350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g transform="rotate(90 175 175)">
+    <path id="Coin-arrondi-copie-3" fill="#ffb700" fill-rule="evenodd" stroke="#ffb700" d="M 213 278 C 184.833572 278 162 255.166428 162 227 L 171.883728 227 C 171.883728 249.707825 190.292175 268.116272 213 268.116272 Z"/>
+    <path id="Ligne-copie" fill="#984b9a" fill-rule="evenodd" stroke="#984b9a" stroke-width="10" d="M 595 63 L 607 62.999969"/>
+    <path id="Ligne-copie-4" fill="#ffb700" fill-rule="evenodd" stroke="#ffb700" stroke-width="10" d="M 212.999985 272.996277 C 241.222214 272.996765 438.777771 273.000183 467 273.000702"/>
+    <path id="Forme" fill="#ffb700" fill-rule="evenodd" stroke="#ffb700" stroke-width="10" d="M 167 126 L 167 227"/>
+    <filter id="filter1" x="0" y="0" width="970" height="350" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="5"/>
+        <feOffset dx="-0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#000000" flood-opacity="0.5"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <path id="Ellipse-copie" fill="#ffffff" fill-rule="evenodd" stroke="#ffb700" stroke-width="10" filter="url(#filter1)" d="M 293 273 C 293 259.192871 281.807129 248 268 248 C 254.192886 248 243 259.192871 243 273 C 243 286.807129 254.192886 298 268 298 C 281.807129 298 293 286.807129 293 273 Z"/>
+    <filter id="filter2" x="0" y="0" width="970" height="350" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="5"/>
+        <feOffset dx="-0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#000000" flood-opacity="0.5"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <path id="Ellipse-copie-6" fill="#ffffff" fill-rule="evenodd" stroke="#ffb700" stroke-width="10" filter="url(#filter2)" d="M 392 272 C 392 258.192871 380.807129 247 367 247 C 353.192871 247 342 258.192871 342 272 C 342 285.807129 353.192871 297 367 297 C 380.807129 297 392 285.807129 392 272 Z"/>
+    <path id="Coin-arrondi" fill="#f15b2c" fill-rule="evenodd" stroke="#f15b2c" d="M 213 176 C 184.833572 176 162 153.166428 162 125 L 171.883728 125 C 171.883728 147.707825 190.292175 166.116272 213 166.116272 Z"/>
+    <path id="Coin-arrondi-copie" fill="#f15b2c" fill-rule="evenodd" stroke="#f15b2c" d="M 372 125 C 372 153.166428 349.166443 176 321 176 L 321 166.116272 C 343.707825 166.116272 362.116272 147.707825 362.116272 125 Z"/>
+
+    <path id="Ligne-copie-3" fill="#f15b2c" fill-rule="evenodd" stroke="#f15b2c" stroke-width="10" d="M 212.999985 170.996277 C 224.999985 170.996719 309 170.999771 321 171.000214"/>
+    <path id="Ligne" fill="#f15b2c" fill-rule="evenodd" stroke="#f15b2c" stroke-width="10" d="M 167 79 L 167 125"/>
+    <path id="Ligne-copie-2" fill="#f15b2c" fill-rule="evenodd" stroke="#f15b2c" stroke-width="10" d="M 367 79 L 367 126"/>
+    <filter id="filter3" x="0" y="0" width="970" height="350" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="5"/>
+        <feOffset dx="-0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#000000" flood-opacity="0.5"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <path id="Ellipse-copie-5" fill="#ffffff" fill-rule="evenodd" stroke="#f15b2c" stroke-width="10" filter="url(#filter3)" d="M 293 172 C 293 158.192886 281.807129 147 268 147 C 254.192886 147 243 158.192886 243 172 C 243 185.807114 254.192886 197 268 197 C 281.807129 197 293 185.807114 293 172 Z"/>
+
+    <path id="path4" fill="#984b9a" fill-rule="evenodd" stroke="#984b9a" stroke-width="10" d="M 142 64 C 191.666672 63.888916 539.333313 63.111084 589 63"/>
+    <path id="Ligne-copie-5" fill="#ffb700" fill-rule="evenodd" stroke="#ffb700" stroke-width="10" d="M 473 273 L 485 272.999969"/>
+    <filter id="filter4" x="0" y="0" width="970" height="350" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="5"/>
+        <feOffset dx="-0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#000000" flood-opacity="0.5"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <path id="Ellipse-copie-4" fill="#ffffff" fill-rule="evenodd" stroke="#984b9a" stroke-width="10" filter="url(#filter4)" d="M 192 63 C 192 49.192871 180.807114 38 167 38 C 153.192886 38 142 49.192871 142 63 C 142 76.807129 153.192886 88 167 88 C 180.807114 88 192 76.807129 192 63 Z"/>
+    <filter id="filter5" x="0" y="0" width="970" height="350" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="5"/>
+        <feOffset dx="-0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#000000" flood-opacity="0.5"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <path id="Ellipse" fill="#ffffff" fill-rule="evenodd" stroke="#984b9a" stroke-width="10" filter="url(#filter5)" d="M 292 63 C 292 49.192871 280.807129 38 267 38 C 253.192886 38 242 49.192871 242 63 C 242 76.807129 253.192886 88 267 88 C 280.807129 88 292 76.807129 292 63 Z"/>
+    <filter id="filter6" x="0" y="0" width="970" height="350" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="5"/>
+        <feOffset dx="-0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#000000" flood-opacity="0.5"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <path id="Ellipse-copie-2" fill="#ffffff" fill-rule="evenodd" stroke="#984b9a" stroke-width="10" filter="url(#filter6)" d="M 392 63 C 392 49.192871 380.807129 38 367 38 C 353.192871 38 342 49.192871 342 63 C 342 76.807129 353.192871 88 367 88 C 380.807129 88 392 76.807129 392 63 Z"/>
+    <filter id="filter7" x="0" y="0" width="970" height="350" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="5"/>
+        <feOffset dx="-0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#000000" flood-opacity="0.5"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <path id="Ellipse-copie-3" fill="#ffffff" fill-rule="evenodd" stroke="#984b9a" stroke-width="10" filter="url(#filter7)" d="M 492 63 C 492 49.192871 480.807129 38 467 38 C 453.192871 38 442 49.192871 442 63 C 442 76.807129 453.192871 88 467 88 C 480.807129 88 492 76.807129 492 63 Z"/>
+    </g>
+</svg>

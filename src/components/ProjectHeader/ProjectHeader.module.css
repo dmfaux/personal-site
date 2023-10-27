@@ -1,0 +1,69 @@
+.container {
+  width: 50rem;
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  /* add a drop shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 2rem 0;
+}
+
+.header-container {
+  padding: 1rem;
+  display: flex;
+}
+.project-title {
+  color: lime;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.project-title::after {
+  content: "";
+  position: absolute;
+  right: -15px;
+  top: 0;
+  height: 100%;
+  width: 10px;
+  background-color: limegreen;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.bar {
+  background-color: lightgrey;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 1rem;
+}
+
+.bar-button {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.bar-button.red {
+  background-color: red;
+}
+
+.bar-button.yellow {
+  background-color: lightsalmon;
+}
+
+.bar-button.green {
+  background-color: green;
+}

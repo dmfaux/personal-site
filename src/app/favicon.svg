@@ -1,0 +1,6 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black circle background -->
+  <circle cx="24" cy="24" r="24" fill="black"/>
+  <!-- White text "DF" in the circle -->
+  <text x="24" y="32" font-family="Verdana" font-size="24" fill="white" text-anchor="middle">DF</text>
+</svg>
