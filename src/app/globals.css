@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .filter-drop-shadow {
+    filter: drop-shadow(
+      0px 0px 5px rgba(var(--font-r), var(--font-g), var(--font-b), 0.5)
+    );
+  }
+  /* ... */
+}
+
 :root {
   --font-r: 20;
   --font-g: 20;
@@ -35,4 +44,8 @@
   --font-g: 255;
   --font-b: 255;
   --font-color: rgb(255, 255, 255);
+}
+
+body {
+  min-height: 100vh;
 }

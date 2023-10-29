@@ -1,7 +1,3 @@
-.backdrop-container {
-  position: relative;
-}
-
 .backdrop {
   top: 0;
   height: 100vh;
@@ -16,7 +12,7 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: url('/assets/moon.png') no-repeat top left;
+  background: url("/assets/moon.png") no-repeat top left;
   animation: moon 5s ease-in-out forwards;
 }
 
@@ -56,7 +52,11 @@
 .sunset__gradient__overlay {
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(248, 226, 149) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(248, 226, 149) 100%
+  );
   animation: sunset 10s ease-in-out forwards;
 }
 
@@ -77,18 +77,21 @@
 .midday__gradient__overlay {
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(232, 207, 145) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(232, 207, 145) 100%
+  );
   animation: midday 5s ease-in-out forwards;
 }
 
 @keyframes midday {
   0% {
-    transform: translateX(1600px) translateY(0) rotate(225deg)
+    transform: translateX(1600px) translateY(0) rotate(225deg);
   }
   100% {
-    transform: translateX(1100px) translateY(0) rotate(225deg)
+    transform: translateX(1100px) translateY(0) rotate(225deg);
   }
-  
 }
 
 @keyframes sunset {
