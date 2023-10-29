@@ -3,6 +3,7 @@ import { Source_Code_Pro } from "next/font/google";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 import { useTheme } from "@/contexts/ThemeContext";
+import styles from "./Splash.module.css";
 
 const SourceCodePro = Source_Code_Pro({ weight: "400", subsets: ["latin"] });
 
@@ -13,7 +14,7 @@ const Splash: React.FC = () => {
     <section id="home">
       <div className="w-full flex flex-col justify-center items-center mt-12 md:mt-24 md:mb-40">
         <h1
-          className={`text-5xl md:text-[4.7rem] font-extrabold p-12 rounded-3xl bg-slate-500/10 m-8 lg:m-18 lg:mx-24 ${SourceCodePro.className}`}
+          className={`text-5xl md:text-[4.7rem] font-extrabold p-12 rounded-3xl bg-slate-500/10 m-8 lg:m-18 lg:mx-24 ${SourceCodePro.className} ${styles[theme]}`}
         >
           Hi, I am a Software Development Manager &amp; Full Stack Developer
           from Johannesburg South Africa 🇿🇦

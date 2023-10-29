@@ -18,10 +18,5 @@
   align-items: center;
   transition: all 0.3s ease-in-out;
   font-size: 1.5rem;
-}
-
-.theme-picker-container.midnight .theme-icon-btn > *, 
-.theme-picker-container.sunset .theme-icon-btn > * {
-  color: white !important;
-  transition: color 1s ease-in-out;
+  color: var(--font-color);
 }
