@@ -94,9 +94,12 @@ export default function Backdrop({ children }: BackdropProps) {
   }, [currentColors]);
 
   return (
-    <div className="top-0 h-full w-full -z-0 fixed" ref={backDropRef}>
+    <div
+      className="top-0 h-screen w-full -z-0 fixed flex flex-col items-center overflow-hidden scrollbar-hide"
+      ref={backDropRef}
+    >
       <div className={styles[theme]}>
-        <div className={styles[`${theme}__gradient`]}>
+        <div className={styles.gradient}>
           <div className={styles[`${theme}__gradient__overlay`]}></div>
         </div>
       </div>

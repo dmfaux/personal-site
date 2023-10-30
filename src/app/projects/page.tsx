@@ -1,15 +1,19 @@
-import SectionHeader from "../SectionHeader/SectionHeader";
-import ProjectHeader from "../ProjectHeader/ProjectHeader";
+"use client";
+
+import SectionHeader from "@/components/SectionHeader/SectionHeader";
+import ProjectHeader from "@/components/ProjectHeader/ProjectHeader";
+import Paragraph from "@/components/Paragraph/Paragraph";
+import Divider from "@/components/Divider/Divider";
 import { useTheme } from "@/contexts/ThemeContext";
-import Paragraph from "../Paragraph/Paragraph";
-import styles from "./Projects.module.css";
-import { classes } from "@/tools";
 
 const Projects: React.FC = () => {
   const { theme } = useTheme();
 
   return (
-    <section id="projects" className={classes(styles.container, styles[theme])}>
+    <section
+      id="projects"
+      className={`${theme} flex flex-col items-center justify-center px-8 w-full`}
+    >
       <SectionHeader>projects</SectionHeader>
 
       <Paragraph>
@@ -163,6 +167,8 @@ const Projects: React.FC = () => {
         enhance the educational experience by empowering educators to create
         more focused and engaged learning environments.
       </Paragraph>
+
+      <Divider />
     </section>
   );
 };

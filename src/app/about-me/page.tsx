@@ -1,16 +1,16 @@
-import SectionHeader from "../SectionHeader/SectionHeader";
+"use client";
+
+import SectionHeader from "@/components/SectionHeader/SectionHeader";
+import Paragraph from "@/components/Paragraph/Paragraph";
 import { useTheme } from "@/contexts/ThemeContext";
-import Paragraph from "../Paragraph/Paragraph";
-import styles from "./AboutMe.module.css";
-import { classes } from "@/tools";
+import Divider from "@/components/Divider/Divider";
 
 const AboutMe: React.FC = () => {
   const { theme } = useTheme();
 
   return (
     <section
-      id="aboutMe"
-      className={classes(styles["about-me-container"], styles[theme])}
+      className={`${theme} flex flex-col justify-center items-center px-8 w-full`}
     >
       <SectionHeader>aboutMe</SectionHeader>
 
@@ -19,8 +19,8 @@ const AboutMe: React.FC = () => {
         knack for innovation. In fact, I've been nominated for and even bagged
         some pretty cool awards in the field. When I'm not diving into lines of
         code or staying updated on the latest software trends, you'll likely
-        find me steering through virtual circuits—I'm a part-time car sim player
-        and a full-time car enthusiast!
+        find me steering through virtual circuits—I'm a part-time sim racing
+        player and a full-time car enthusiast!
       </Paragraph>
 
       <Paragraph>
@@ -44,6 +44,8 @@ const AboutMe: React.FC = () => {
         trading tips, or just sharing a good laugh. Life's a journey, and it's
         even better when you have awesome companions along the way!
       </Paragraph>
+
+      <Divider />
     </section>
   );
 };

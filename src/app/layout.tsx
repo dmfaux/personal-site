@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={WorkSans.className}>
+      <body className={`${WorkSans.className} scrollbar-hide relative`}>
         <ThemeContextProvider>
           <Template>{children}</Template>
         </ThemeContextProvider>

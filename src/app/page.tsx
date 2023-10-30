@@ -1,31 +1,48 @@
 "use client";
 
-import Backdrop from "@/components/Backdrop/Backdrop";
-import Projects from "@/components/Projects/Projects";
-import AboutMe from "@/components/AboutMe/AboutMe";
 import Divider from "@/components/Divider/Divider";
 import { useTheme } from "@/contexts/ThemeContext";
-import Splash from "@/components/Splash/Splash";
-import Footer from "@/components/Footer/Footer";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Source_Code_Pro } from "next/font/google";
+
+const SourceCodePro = Source_Code_Pro({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
   const { theme } = useTheme();
 
   return (
-    <Backdrop>
-      <div
-        data-theme={theme}
-        className="h-full w-full flex flex-col items-center"
-      >
-        <div className="flex flex-col items-center min-h-full overflow-x-hidden overflow-y-auto w-full md:w-11/12 lg:8/12 max-w-[1600px] scrollbar-hide">
-          <Splash />
-          <Divider />
-          <AboutMe />
-          <Divider />
-          <Projects />
-          <Footer />
+    <div data-theme={theme}>
+      <div className="flex flex-col items-center">
+        <div className="w-full flex flex-col justify-center items-center mt-12 md:mt-24 md:mb-40">
+          <h1
+            className={`text-5xl md:text-[4.8rem] font-extrabold p-12 rounded-3xl bg-slate-500/10 m-8 lg:m-18 lg:mx-24 ${SourceCodePro.className} ${theme}`}
+          >
+            Hi, I am a Software Development Manager &amp; Full Stack Developer
+            from Johannesburg South Africa 🇿🇦
+          </h1>
+          <p className="text-2xl font-medium flex items-center justify-center gap-5">
+            <a
+              className="text-white rounded-md bg-[#0a66c2] p-2"
+              href="https://www.linkedin.com/in/dfaux"
+              target="_blank"
+            >
+              <span className="flex gap-2 items-center">
+                LinkedIn <FaLinkedin />
+              </span>
+            </a>
+            <a
+              className="text-white rounded-md bg-[#6e40c9] p-2"
+              href="https://github.com/dmfaux"
+              target="_blank"
+            >
+              <span className="flex gap-2 items-center">
+                GitHub <FaGithub />
+              </span>
+            </a>
+          </p>
         </div>
+        <Divider />
       </div>
-    </Backdrop>
+    </div>
   );
 }

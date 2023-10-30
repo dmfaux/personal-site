@@ -4,6 +4,15 @@
   width: 100vw;
   z-index: -1;
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.gradient {
+  height: 100%;
+  width: 100%;
 }
 
 .midnight {
@@ -24,11 +33,6 @@
   z-index: -1;
 }
 
-.sunrise__gradient {
-  height: 100%;
-  width: 100%;
-}
-
 .sunrise__gradient__overlay {
   height: 100%;
   width: 100%;
@@ -42,11 +46,6 @@
   position: absolute;
   bottom: 0;
   z-index: -1;
-}
-
-.sunset__gradient {
-  height: 100%;
-  width: 100%;
 }
 
 .sunset__gradient__overlay {
@@ -67,11 +66,6 @@
   top: 0;
   right: 0;
   z-index: -1;
-}
-
-.midday__gradient {
-  height: 100%;
-  width: 100%;
 }
 
 .midday__gradient__overlay {
