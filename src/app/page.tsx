@@ -1,6 +1,5 @@
 "use client";
 
-import Navigation from "@/components/Navigation/Navigation";
 import Backdrop from "@/components/Backdrop/Backdrop";
 import Projects from "@/components/Projects/Projects";
 import AboutMe from "@/components/AboutMe/AboutMe";
@@ -19,8 +18,6 @@ export default function Home() {
         className="h-full w-full flex flex-col items-center"
       >
         <div className="flex flex-col items-center min-h-full overflow-x-hidden overflow-y-auto w-full md:w-11/12 lg:8/12 max-w-[1600px] scrollbar-hide">
-          <Navigation />
-
           <Splash />
           <Divider />
           <AboutMe />

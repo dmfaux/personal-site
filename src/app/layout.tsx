@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 
-import ThemeContextProvider from "../contexts/ThemeContext";
+import ThemeContextProvider from "@/contexts/ThemeContext";
 import "./globals.css";
+import Template from "../components/Template";
 
 const WorkSans = Work_Sans({ weight: ["400", "600"], subsets: ["latin"] });
 
@@ -19,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={WorkSans.className}>
-        <ThemeContextProvider>{children}</ThemeContextProvider>
+        <ThemeContextProvider>
+          <Template>{children}</Template>
+        </ThemeContextProvider>
       </body>
     </html>
   );
