@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+.blog-entry {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+.blog-entry > p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-entry > h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+.blog-entry > ul {
+  margin-left: 2rem;
+  list-style-type: square;
+  margin-bottom: 1rem;
+}
+
+.blog-entry > ul > li {
+  margin-top: 0.5rem;
+}
+
+.blog-entry > ol {
+  margin-left: 2rem;
+  list-style-type: decimal;
+}
+
+.blog-entry > ol > li {
+  margin-top: 0.5rem;
+}
+
+.blog-entry h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+.blog-entry > h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Source Code Pro", monospace;
+}

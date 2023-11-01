@@ -1,8 +1,8 @@
 const Divider: React.FC = () => {
   return (
-    <div className="py-8">
+    <div className="py-8 flex justify-center">
       <img
-        src="assets/branch.svg"
+        src="/assets/branch.svg"
         alt="branch"
         className="w-[100px] md:w-[150px]"
       />

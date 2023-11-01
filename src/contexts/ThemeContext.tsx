@@ -1,5 +1,6 @@
 "use client";
 
+import { type } from "os";
 import React, { useEffect, useState, createContext, useContext } from "react";
 
 const themes = ["sunrise", "sunset", "midnight", "midday"] as const;
@@ -17,9 +18,13 @@ type ThemeContextType = {
 
 const ThemeContext = createContext<ThemeContextType | null>(null);
 
-let storedTheme: Theme | null = window?.localStorage
-  ? (window.localStorage?.getItem("theme") as Theme | null)
-  : null;
+let storedTheme: Theme | null = null;
+
+if (typeof window !== "undefined") {
+  storedTheme = window?.localStorage
+    ? (window.localStorage?.getItem("theme") as Theme | null)
+    : null;
+}
 
 export default function ThemeContextProvider({
   children,
@@ -36,6 +41,8 @@ export default function ThemeContextProvider({
   };
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     const localTheme = window.localStorage.getItem("theme") as Theme | null;
 
     if (localTheme) {

@@ -18,8 +18,8 @@ const Projects: React.FC = () => {
 
       <Paragraph>
         <strong>
-          I've been fortunate to work on some pretty exciting projects over the
-          years. Here are a few of my favourites:
+          I&apos;ve been fortunate to work on some pretty exciting projects over
+          the years. Here are a few of my favourites:
         </strong>
       </Paragraph>
 
@@ -27,12 +27,12 @@ const Projects: React.FC = () => {
 
       <Paragraph>
         This project involved the development of a sophisticated web application
-        for one of South Africa's Big Four banks. The application was designed
-        to manage Projects, Interdependencies, Risks, Issues, and Capacity,
-        streamlining various facets of project management within the financial
-        institution. The technology stack included Angular for the front-end,
-        NodeJS for the back-end, TypeScript for enhanced code quality, and MySQL
-        for database management.
+        for one of South Africa&apos;s Big Four banks. The application was
+        designed to manage Projects, Interdependencies, Risks, Issues, and
+        Capacity, streamlining various facets of project management within the
+        financial institution. The technology stack included Angular for the
+        front-end, NodeJS for the back-end, TypeScript for enhanced code
+        quality, and MySQL for database management.
       </Paragraph>
 
       <Paragraph>
@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
 
       <Paragraph>
         One of the standout features was the ability to share a live link with
-        external parties, allowing them to follow along with the meeting's
+        external parties, allowing them to follow along with the meeting&apos;s
         progress in real time. This feature enhanced transparency and ensured
         all stakeholders remained informed.
       </Paragraph>
@@ -120,7 +120,7 @@ const Projects: React.FC = () => {
         The system was designed to be highly customisable, with the ability to
         add new fields and modify existing ones. This allowed businesses to
         tailor the system to their specific needs, ensuring a seamless
-        integration with their existing workflows. One of the system's most
+        integration with their existing workflows. One of the system&apos;s most
         notable features was its integrated sales tracking module, offering
         real-time insights into sales activities. This module was further
         enhanced by a visual sales funnel that allowed sales teams to identify
@@ -134,10 +134,10 @@ const Projects: React.FC = () => {
       </Paragraph>
 
       <Paragraph>
-        Overall, the project's use of Laravel and MySQL not only ensured robust
-        performance but also provided advanced yet user-friendly features. These
-        empowered businesses to make data-driven decisions, bolster customer
-        engagement, and ultimately improve their sales metrics.
+        Overall, the project&apos;s use of Laravel and MySQL not only ensured
+        robust performance but also provided advanced yet user-friendly
+        features. These empowered businesses to make data-driven decisions,
+        bolster customer engagement, and ultimately improve their sales metrics.
       </Paragraph>
 
       <ProjectHeader title="Internet Proxy Interface" />

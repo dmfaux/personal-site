@@ -16,6 +16,7 @@
   --font-g: 20;
   --font-b: 20;
   --font-color: rgb(20, 20, 20);
+  --bg-color: rgb(255, 255, 255);
 }
 
 [data-theme="sunrise"] {
@@ -23,6 +24,7 @@
   --font-g: 20;
   --font-b: 20;
   --font-color: rgb(20, 20, 20);
+  --bg-color: rgb(255, 255, 255);
 }
 
 [data-theme="midday"] {
@@ -30,20 +32,23 @@
   --font-g: 20;
   --font-b: 20;
   --font-color: rgb(20, 20, 20);
+  --bg-color: rgb(255, 255, 255);
 }
 
 [data-theme="midnight"] {
   --font-r: 255;
   --font-g: 255;
   --font-b: 255;
-  --font-color: rgb(255, 255, 255);
+  --font-color: rgb(245, 245, 245);
+  --bg-color: rgba(20, 20, 20, 0.8);
 }
 
 [data-theme="sunset"] {
   --font-r: 255;
   --font-g: 255;
   --font-b: 255;
-  --font-color: rgb(255, 255, 255);
+  --font-color: rgb(245, 245, 245);
+  --bg-color: rgb(20, 20, 20, 0.8);
 }
 
 body {

@@ -26,15 +26,6 @@ export const links = [
   },
 ] as const;
 
-const handleClickScroll = (event: React.MouseEvent, id: string) => {
-  event.preventDefault();
-  const element = document.getElementById(id);
-  console.log(element);
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-};
-
 const Navigation: React.FC = () => {
   const { theme } = useTheme();
 
