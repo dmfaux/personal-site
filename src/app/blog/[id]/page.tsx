@@ -34,6 +34,7 @@ const BlogEntry = async ({
         alt={blog ? blog.title : ""}
         width={1600}
         height={400}
+        quality={80}
         className="rounded-xl"
       />
 
