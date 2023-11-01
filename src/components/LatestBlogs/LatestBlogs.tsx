@@ -22,12 +22,7 @@ const LatestBlogs = async () => {
                 className="w-[400px] h-full flex flex-col items-center"
               >
                 <div className="h-[200px] overflow-hidden rounded-xl">
-                  <Image
-                    src={`/assets/blog/${blog.image}`}
-                    alt={blog.title}
-                    width={400}
-                    height={300}
-                  />
+                  <img src={`/assets/blog/${blog.image}`} alt={blog.title} />
                 </div>
 
                 <div className="my-6">

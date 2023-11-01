@@ -29,12 +29,9 @@ const BlogEntry = async ({
     <div>
       <h1 className="text-[--font-color] text-4xl mb-4 mx-4">{blog?.title}</h1>
 
-      <Image
+      <img
         src={blog ? `/assets/blog/${blog.image}` : ""}
         alt={blog ? blog.title : ""}
-        width={1600}
-        height={400}
-        quality={80}
         className="rounded-xl"
       />
 
