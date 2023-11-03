@@ -10,15 +10,13 @@ const BlogEntry = async ({
   params,
 }: {
   params: {
-    id: string;
+    slug: string;
   };
 }) => {
-  const { id } = params;
+  const { slug } = params;
 
   const blog = await prisma.post.findFirst({
-    where: {
-      Slug: id,
-    },
+    where: { Slug: slug },
   });
 
   const displayEntry = (content: string) => {
