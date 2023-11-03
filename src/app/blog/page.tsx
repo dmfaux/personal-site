@@ -19,7 +19,7 @@ const Blog = async () => {
             <div
               className="w-[500px] h-[300px] overflow-hidden rounded-xl"
               style={{
-                backgroundImage: `url(${blog.image})`,
+                backgroundImage: `url(assets/blog/${blog.image})`,
                 backgroundSize: "cover",
               }}
             ></div>
@@ -33,7 +33,7 @@ const Blog = async () => {
               <div className="mx-6 text-left">
                 <Paragraph options={{ cutOff: 200 }}>{blog.content}</Paragraph>
                 <Link
-                  href={`/blog/${blog.id}`}
+                  href={`/blog/${blog.Slug}`}
                   className="cursor-pointer text-blue-700"
                 >
                   readme &rarr;

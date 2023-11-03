@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 import Paragraph from "@/components/Paragraph/Paragraph";
 import prisma from "@/lib/prisma";
@@ -28,7 +27,7 @@ const LatestBlogs = async () => {
                 <div className="my-6">
                   <small>{blog.createdAt.toDateString()}</small>
                   <Link
-                    href={`/blog/${blog.id}`}
+                    href={`/blog/${blog.Slug}`}
                     className="cursor-pointer underline text-left"
                   >
                     <h2 className="text-2xl font-extrabold">{blog.title}</h2>

@@ -17,7 +17,7 @@ const BlogEntry = async ({
 
   const blog = await prisma.post.findFirst({
     where: {
-      id,
+      Slug: id,
     },
   });
 
@@ -26,13 +26,13 @@ const BlogEntry = async ({
   };
 
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <h1 className="text-[--font-color] text-4xl mb-4 mx-4">{blog?.title}</h1>
 
       <img
         src={blog ? `/assets/blog/${blog.image}` : ""}
         alt={blog ? blog.title : ""}
-        className="rounded-xl"
+        className="rounded-xl max-[1339px]:w-10/12 "
       />
 
       <div
