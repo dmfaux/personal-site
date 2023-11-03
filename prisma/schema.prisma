@@ -15,6 +15,6 @@ model Post {
   title String
   content  String
   image String 
-  Slug String? @unique
+  Slug String @unique
   createdAt DateTime @default(now())
 }
