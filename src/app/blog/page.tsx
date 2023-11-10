@@ -33,7 +33,7 @@ const Blog = async () => {
               <div className="mx-6 text-left">
                 <Paragraph options={{ cutOff: 200 }}>{blog.content}</Paragraph>
                 <Link
-                  href={`/blog/${blog.Slug}`}
+                  href={`/blog/${blog.slug}`}
                   className="cursor-pointer text-blue-700"
                 >
                   readme &rarr;

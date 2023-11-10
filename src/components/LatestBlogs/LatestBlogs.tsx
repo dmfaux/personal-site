@@ -27,7 +27,7 @@ const LatestBlogs = async () => {
                 <div className="my-6">
                   <small>{blog.createdAt.toDateString()}</small>
                   <Link
-                    href={`/blog/${blog.Slug}`}
+                    href={`/blog/${blog.slug}`}
                     className="cursor-pointer underline text-left"
                   >
                     <h2 className="text-2xl font-extrabold">{blog.title}</h2>
