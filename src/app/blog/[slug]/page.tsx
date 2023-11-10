@@ -13,11 +13,13 @@ const BlogEntry = async ({
     slug: string;
   };
 }) => {
-  const { slug } = params as { slug: string };
+  const { slug } = params;
 
-  const blog = await prisma.post.findUnique({
+  const blog = await prisma.post.findFirst({
     where: { slug },
   });
+
+  console.log({ slug, blog });
 
   const displayEntry = (content: string) => {
     return { __html: marked(content) };
